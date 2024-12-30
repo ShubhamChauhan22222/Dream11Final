@@ -25,13 +25,15 @@ The primary script, `main_app.py`, orchestrates the following workflow:
   - `additional_data`: Raw data from other sources (if applicable).
 - **`interim`**: Intermediate data files generated during processing.
 - **`processed`**: Finalized datasets ready for modeling.
-
+- **`Note`**: Folders for data are empty for now to reduce repo size.
+  
 ### Data Processing Folder (`data_processing`)
 - **`data_download.py`**: Script to download and organize all raw data.
 - **`feature_engineering.py`**: Performs data manipulation and feature engineering.
 
 ### Documentation Folder (`docs`)
-- **`video_demo`**: Contains a walkthrough video covering setup, UI, and functionality.
+- **`Documentation.pdf`**: Contains the detailed report of our work, model architectures and results.
+- **`video_demos`**: Contains a walkthrough video covering setup, UI, and functionality.
 
 ### Model Folder (`model`)
 - **`train_model.py`**: Script to train models using the processed data.
@@ -42,7 +44,7 @@ The primary script, `main_app.py`, orchestrates the following workflow:
 
 ### Out-of-Sample Data Folder (`out_of_sample_data`)
 - Contains dummy evaluation data for matches.
-- Post-submission (Dec 4–14), testing data will be added in the same format as the provided sample data.
+- Post-submission, testing data will be added in the same format as the provided sample data.
 - Integrated with `ModelUI` to append new data automatically from Cricksheet.
 
 ### Miscellaneous Folder (`rest`)
