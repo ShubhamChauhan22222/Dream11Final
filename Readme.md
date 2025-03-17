@@ -1,13 +1,15 @@
 # Dream 11 Next-Gen Team Builder With Predictive AI
 
-Welcome to the Fantasy Cricket Team Recommendation Project repository! This project is designed to predict the optimal fantasy cricket team for upcoming matches, leveraging advanced data processing, modeling, and a user-friendly interface.
+Welcome to the Fantasy Cricket Team Recommendation Project repository! made for the inter IIT tech meet 13.0. This project is designed to predict the optimal fantasy cricket team for upcoming matches, leveraging advanced data processing, modeling, and a user-friendly interface.
 
 ---
 
 ## 🚀 Main Application Workflow
 The primary script, `main_app.py`, orchestrates the following workflow:
-2. **UI Launch**: Opens the main user interface, `Final_UI.py`.
-3. **UI Options**:
+1. **UI Launch**: Opens the main user interface, `Final_UI.py`.
+2. **UI Options**:
+
+   
    - **ModelUI**: Opens a Streamlit-based web app for model interactions.
    - **ProductUI**: Downloads the `app.apk` for the mobile application.
 
